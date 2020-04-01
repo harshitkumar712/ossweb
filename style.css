@@ -36,6 +36,10 @@
 
 @media(max-width: 768px)
 {
+	img{
+        height:160px;
+        width:240px;
+    }
 		h1{
 			font-size:
 		}
