@@ -2,6 +2,38 @@
 .navbar {
 	box-shadow: 2px 2px 5px grey;
 }
+
+.card{
+border:0;
+position: relative;
+
+}
+
+.card-img{
+    transition: 0.3s;
+  transition: ease-in-out 0.4s;
+
+}
+.card-body {
+
+  transition: 0.3s;
+  transition: ease-in-out 0.4s;
+  border-radius: 5px;
+}
+
+.card-text {
+  color:black;
+}
+.card-title {
+  color: black;
+  text-align: center;
+}
+
+.card:hover .card-body {
+  background: #eee;
+  color: white;
+}
+
 #cover{
 	position: relative;
 
@@ -34,14 +66,19 @@
     100% { transform: translateY(-10px); }
 }
 
+
 @media(max-width: 768px)
 {
-	img{
+    img{
         height:160px;
         width:240px;
     }
+
 		h1{
 			font-size:
 		}
 	
 }
+
+
+
