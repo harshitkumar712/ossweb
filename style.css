@@ -1,17 +1,29 @@
-
+body{
+  font-family: 'Poppins', sans-serif;
+  background: rgb(255,72,0);
+background: linear-gradient(90deg, rgba(255,72,0,1) 0%, rgba(235,150,94,0) 0%, rgba(245,126,48,0.0673572668868504) 49%, rgba(255,102,0,0) 100%); 
+}
 .navbar {
+  position:sticky;
 	box-shadow: 2px 2px 5px grey;
 }
+
 
 .card{
 border:0;
 position: relative;
 
 }
+.icon{
+
+  transition: transform 0.8s ease;
+}
+.icon:hover{
+ transform: scale(1.05);
+}
 
 .card-img{
-    transition: 0.3s;
-  transition: ease-in-out 0.4s;
+    
 
 }
 .card-body {
@@ -74,8 +86,9 @@ position: relative;
         width:240px;
     }
 
-		h1{
-			font-size:
+		svg{
+			 height:360px;
+       width: auto;
 		}
 	
 }
