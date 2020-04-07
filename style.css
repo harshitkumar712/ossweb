@@ -108,9 +108,10 @@ position: relative;
    .rang{
     font-size: 3rem;
    }
-   #event h2{
-      font-size: 1.05rem;
+   #event .h2{
+     font-size: 1.75rem;
     }
+   
    
 	
 }
