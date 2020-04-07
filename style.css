@@ -1,4 +1,4 @@
-html, body {width: auto!important; overflow-x: hidden!important} 
+html, body {width: auto!important; overflow-x: hidden!important } 
 
 body{
   font-family: 'Poppins', sans-serif;
@@ -6,11 +6,15 @@ body{
 background: linear-gradient(90deg, rgba(255,72,0,1) 0%, rgba(235,150,94,0) 0%, rgba(245,126,48,0.0673572668868504) 49%, rgba(255,102,0,0) 100%); 
 }
 .navbar {
-/*  position:sticky;  */
 	box-shadow: 2px 2px 5px grey;
 }
 
-
+.rang{
+  color:rgb(195,67,76);
+   font-size: 3.5rem;
+    font-weight: 100;
+    line-height: 1.2;
+}
 .card{
 border:0;
 position: relative;
@@ -84,14 +88,30 @@ position: relative;
 @media(max-width: 768px)
 {
     img{
-        height:160px;
-        width:240px;
+        height: auto;
+    width: 256px;
     }
 
 		svg{
 			 height:360px;
        width: auto;
 		}
+    h3{
+      font-size: 1.25rem;
+    }
+   #about p{
+      font-size: 1.05rem;
+    }
+   #project p{ 
+    font-size: 0.94rem ;
+    }
+   .rang{
+    font-size: 3rem;
+   }
+   #event h1{
+      font-size: 1.05rem;
+    }
+   
 	
 }
 
